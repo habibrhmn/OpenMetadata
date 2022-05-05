@@ -142,7 +142,7 @@ class DashboardServiceTestPage {
 
   @Test
   @Order(4)
-  void checkConnectionConfigTab() throws InterruptedException, IOException {
+  void checkConnectionConfigTab() throws InterruptedException {
     openDashboardServicePage();
     Thread.sleep(2000);
     Events.click(webDriver, common.containsText(serviceName));
